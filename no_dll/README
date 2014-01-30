@@ -1,1 +1,6 @@
-Move out the distribution's cygwin1.dll so that we use our cygwin install's.
+cygwin1.dll was originally moved out of the way 
+
+"so that we use our cygwin install's."
+
+We don't have one in third_party/cygwin any more. However, the build slaves
+do an xcopy of no_dll\cygwin1.dll to the other directo
